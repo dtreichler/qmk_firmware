@@ -40,23 +40,21 @@ enum duckboard_keycodes {
 #define T_DEV TO(_LR_DEV) // Activate LR Develop Layer
 #define T_RGB TO(_RGB) // Activate RGB layer
 #define TGL_FLAG KC_GRV
-#define WHITE_BAL KC_W
-#define CROP KC_R
-#define SPOT KC_Q
-#define SET_NEXT KC_DOT
-#define SET_PREV KC_COMMA
-#define RATE_INC KC_RBRC
-#define RATE_DEC KC_LBRC
-#define REJECT KC_X
-#define RED KC_6
-#define YELLOW KC_7
-#define GREEN KC_8
-#define BLUE KC_9
-#define ROT_CW C(KC_RBRC)
-#define ROT_CCW C(KC_LBRC)
+#define WHITE_BAL KC_W // White balance tool
+#define CROP KC_R // Crop tool
+#define SPOT KC_Q // Spot removal tool
+#define SET_NEXT KC_DOT // Next develop setting
+#define SET_PREV KC_COMMA // Previous develop setting
+#define RATE_INC KC_RBRC // Increase rating
+#define RATE_DEC KC_LBRC // Decrease rating
+#define REJECT KC_X // Reject
+#define RED KC_6 // Toggle red label
+#define YELLOW KC_7 // Toggle yellow label
+#define GREEN KC_8 // Toggle green label
+#define BLUE KC_9 // Toggle blue label
+#define ROT_CW C(KC_RBRC) // Rotate clockwise
+#define ROT_CCW C(KC_LBRC) // Rotate counterclockwise
 
-// #undef ENCODER_RESOLUTION
-// #define ENCODER_RESOLUTION 4
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 

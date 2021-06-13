@@ -22,5 +22,6 @@
     "[markdown]": {
         "editor.trimAutoWhitespace": false,
         "files.trimTrailingWhitespace": false
-    }
+    },
+    "python.pythonPath": "/Users/treicdm1/miniconda3/envs/qmk/bin/python"
 }
